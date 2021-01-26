@@ -1,0 +1,86 @@
+.container {
+  padding-top: 50px;
+}
+
+.auto-form {
+  min-width: 150px;
+  max-width: 400px;
+  width: 80%;
+}
+
+.tp-full-width {
+  width: 50%;
+  padding:6px 19px;
+}
+.submit{
+  margin-right: 20px;
+  background: #0099CC;
+  border: 1px solid #009cd7;
+  padding: 4px 16px;
+  border-color: #00a1de #009cd7 #0076a3 #009cd7;
+  border-radius: 2px;
+  color: white;
+  padding: 6px 19px;
+  width:98px;
+}
+
+.startend{
+  margin: 6px;
+  margin-left: 400px;
+  margin-top: -60px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+table.mat-table {
+  margin-top: -7px;
+}
+td.mat-cell:first-child, td.mat-footer-cell:first-child, th.mat-header-cell:first-child {
+  border: none;
+}
+tr.mat-footer-row, tr.mat-row {
+  background-color: #BBE7F9;
+}
+td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-left: 2px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+.table-desc{
+  background: #0099CC;
+  height: 32px;
+  text-align: left;
+  border-radius: 5px;
+}
+.table-desc h6{
+  padding: 6px;
+  margin-left: 20px;
+}
+.mat-header-cell {
+  font-size: 14px;
+  color: rgba(0,0,0,.87);
+}
+.mat-row:nth-child(even){
+  background-color:white;
+}
+
+.mat-row:nth-child(odd){
+  background-color: #BBE7F9;
+  border-radius: 50px !important;
+}
+
+.form-control{
+  background-color: white !important;
+}
+.mat-app-background {
+  background-color: white;
+}
+.mat-app-background.ng-star-inserted {
+  padding-left: 304px;
+  padding-top: 50px;
+  padding-right: 300px;
+}

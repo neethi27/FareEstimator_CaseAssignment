@@ -1,0 +1,18 @@
+server:
+    port: 9099
+
+afkl:
+    api:
+        authorizeUrl: http://localhost:8080/oauth/authorize
+        tokenUrl: http://localhost:8080/oauth/token
+        clientId: travel-api-client
+        secret: psw
+        airportsUrl: http://localhost:8080/airports/
+        airportUrl: http://localhost:8080/airports/{code}
+        faresUrl: http://localhost:8080/fares/{origin}/{destination}
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: '*'

@@ -1,0 +1,38 @@
+<div class="mat-app-background basic-container margin dashboard ">
+  <div class="table-desc"><h6>Health Info</h6>
+    <div class="mat-elevation-z8">
+      <table #table class="mat-table">
+
+        <tr class="mat-row">
+          <th class="mat-header-cell">Parameter</th>
+          <th class="mat-header-cell">Value</th>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Total Request</td>
+          <td class="mat-cell">{{metric.totalCount}}</td>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Total Request with status 200</td>
+          <td class="mat-cell">{{metric.statusOKCount}}</td>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Total Request with status 4xx</td>
+          <td class="mat-cell">{{metric.status4XXCount}}</td>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Total Request with status 5xx</td>
+          <td class="mat-cell">{{metric.status5XXCount}}</td>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Maximum time for a request</td>
+          <td class="mat-cell">{{metric.maxTime}}</td>
+        </tr>
+        <tr class="mat-row">
+          <td class="mat-cell">Minimum time for a request</td>
+          <td class="mat-cell">{{metric.minTime}}</td>
+        </tr>
+
+      </table>
+     </div>
+  </div>
+</div>

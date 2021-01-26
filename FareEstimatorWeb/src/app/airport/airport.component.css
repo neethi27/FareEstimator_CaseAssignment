@@ -1,0 +1,151 @@
+
+.line-align{
+  margin-top: 40px;
+}
+table {
+  width: 100%;
+}
+table.mat-table {
+  margin-top: -7px;
+  max-height: 10px;
+  overflow-y:auto ;
+}
+td.mat-cell:first-child, td.mat-footer-cell:first-child, th.mat-header-cell:first-child {
+  border: none;
+  text-align: center;
+}
+tr.mat-footer-row, tr.mat-row {
+  background-color: #BBE7F9;
+}
+td.mat-cell, td.mat-footer-cell, th.mat-header-cell {
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-left: 2px solid grey;
+  padding: 5px;
+  text-align: center;
+}
+thead{
+  text-align: center;
+}
+.table-desc{
+  background: #0099CC;
+  height: 32px;
+  text-align: left;
+  border-radius: 5px;
+}
+.table-desc h6{
+  padding: 6px;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.line-one{
+  margin-left: -59px;
+}
+.margin-align{
+  margin-left: 120px;
+  margin-top: -8px;
+}
+.text-conv{
+  text-transform: uppercase;
+}
+
+.padding-align{
+  padding: 20px;
+}
+
+.head-container {
+  text-align: center;
+}
+
+.align-check{
+  float: right;
+}
+.pad-check{
+  padding: 30px;
+}
+:host /deep/  .mat-checkbox-checked.mat-accent .mat-checkbox-background,
+.mat-checkbox-indeterminate.mat-accent .mat-checkbox-background
+{
+  background-color: rgb(27, 142, 241) !important;
+}
+.margin-align-text{
+  margin-top: 30px;
+}
+.mat-dialog-title{
+  margin: 0px !important;
+}
+hr {
+  margin-top: 0rem !important;
+}
+.header h5{
+  /* margin-right: 357px; */
+  margin-right: 450px;
+}
+.header h6 {
+  /* margin-left: 227px; */
+  margin-left: 120px;
+  margin-top: -23px;
+  position: absolute;
+  color:#0099CC;
+  font-size: 21px;
+}
+.header img{
+  margin-top: -38px;
+  float: right;
+}
+.header button{
+  float: right;
+}
+.mat-dialog-content {
+  padding-top: 20px;
+}
+.header{
+  border-bottom: 2px solid #0099CC;
+}
+.mat-header-cell {
+  font-size: 14px;
+  color: rgba(0,0,0,.87);
+}
+.mat-row:nth-child(even){
+  background-color:white;
+}
+
+.mat-row:nth-child(odd){
+  background-color: #BBE7F9;
+  border-radius: 50px !important;
+}
+.form-control{
+  background-color: white !important;
+}
+.input-group{
+  padding: 10px;
+}
+.form-inline label{
+  padding-left: 90px;
+}
+.is-invalid{
+  width: 74px !important;
+}
+.mat-app-background {
+  background-color: white;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+  margin-left: 1%;
+}
+
+mat-header-cell {
+  display:flex;
+  justify-content:flex-end;
+}
+::ng-deep .mat-sort-header-container {
+  display:flex;
+  justify-content:center;
+}
+
+.mat-app-background.basic-container.margin.ng-star-inserted {
+  padding-left: 304px;
+  padding-top: 50px;
+  padding-right: 300px;
+}
